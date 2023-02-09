@@ -1,0 +1,43 @@
+.parent {
+  background-color: steelblue;
+  width: 400px;
+  height: 400px;
+}
+
+
+
+.child {
+  background-color: red;
+  width: 50%;
+  height: 50%;
+  animation: go-round 3s alternate-reverse infinite ;
+}
+
+@keyframes go-round {
+  0%{
+    transform: translateX(100%);
+    }
+  33%{
+    transform: translateY(100%);
+    border-radius: 50%;
+    background-color: blue;
+  }
+  66%{
+    transform: translateX(100%)translateY(100%);
+  }
+  100%{
+    transform: translateX(100%)
+  }
+}
+
+/*.parent:hover .child {
+  transform: translate(100%);
+  background-color: blueviolet;
+  border-radius: 20%;
+}
+
+.parent:active .child {
+  transform: translateY(100%);
+  background-color: green;
+  border-radius: 50%;
+}

@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  height: 40vh;
+  align-items: center;
+  font-size: 100px;
+  font-weight: 300;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.flex-item {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-1 {
+  background-color: chocolate;
+}
+
+.item-2 {
+  background-color: coral;
+}
+
+.item-3 {
+  background-color: burlywood;
+}
+
+.item-4 {
+  background-color: bisque;
+}
+
+.item-5 {
+  background-color: beige;
+}

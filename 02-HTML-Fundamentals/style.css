@@ -1,0 +1,60 @@
+.main-header {
+  background-color: pink;
+  padding: 10px 1px;
+  margin-top: 50px;
+  border-top: 5px solid palevioletred;
+  border-radius: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-top: solid 10px rebeccapurple;
+  position: relative;
+  margin: 0px;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: brown;
+}
+.abcd {
+  width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+nav {
+  font-size: 15px;
+}
+
+nav a:link {
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0px;
+}
+
+li:nth-child(even) {
+  color: darkorchid;
+}
+
+h2 {
+  font-size: xx-large;
+  margin-bottom: 30px;
+}
+
+.post-img {
+  width: 100%;
+  height: fit-content;
+}

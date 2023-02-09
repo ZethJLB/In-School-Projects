@@ -1,0 +1,47 @@
+/*body {
+  background-color: tan;
+}*/
+
+#headers {
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#headers th {
+  text-align: center;
+  color: black;
+}
+
+#headers th,
+#headers td {
+  border: 1px solid black;
+}
+
+/*#cities th {
+  text-align: left;
+  background-color: steelblue;
+}
+
+#cities tr:nth-child(even){
+  background-color: orange;
+}
+#cities tr:nth-child(odd){
+  background-color: aquamarine;
+}
+
+#cities tr:hover {
+  background-color: gray;
+}
+/*
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
